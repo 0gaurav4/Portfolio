@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+    body {
+        overflow: auto;
+    }
+    
+    #drag-container, #spin-container {
+        -webkit-transform: rotateX(0);
+                        transform: rotateX(0);
+    }
+    
+    #drag-container img, #drag-container video {
+        line-height: normal;
+        font-size: initial;
+    }
+    
+    #drag-container p {
+        font-size: initial;
+        -webkit-transform: translate(-50%,-50%) rotateX(0);
+                        transform: translate(-50%,-50%) rotateX(0);
+    }
+    
+    #ground {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #music-container {
+        position: static;
+    }
+}
+
