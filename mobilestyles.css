@@ -12,6 +12,7 @@
     #drag-container img, #drag-container video {
         line-height: normal;
         font-size: initial;
+        height: 100%; /* Increase height of images on two finger stretch */
     }
     
     #drag-container p {
