@@ -156,8 +156,8 @@
             transform-style: preserve-3d;
   }
       #drag-container img {
-        width: 150%;
-        height: 350%;
+        width: 120%;
+        height: 180%;
       }
 
   }
