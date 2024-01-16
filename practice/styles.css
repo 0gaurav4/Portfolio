@@ -1,0 +1,59 @@
+/* Messaging platform CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.message-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.message-sender {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.message-receiver {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.message-input {
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.message-send-btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.message-send-btn:hover {
+    background-color: #0056b3;
+}
